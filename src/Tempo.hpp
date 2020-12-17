@@ -3,10 +3,10 @@
 class Tempo {
     private:
 
-        int dia;
-        int hora;
-        int minuto;
-        int segundo;
+        int _dia;
+        int _hora;
+        int _minuto;
+        int _segundo;
 
     public:
 
@@ -23,10 +23,17 @@ class Tempo {
         ~Tempo();
     
         // basic getters
-        int getDia() const;
-        int getHora() const;
-        int getMinuto() const;
-        int getSegundo() const;
+        int getDia();
+        int getHora();
+        int getMinuto();
+        int getSegundo();
+
+        //basic setters
+        // basic getters
+        void setDia();
+        void setHora();
+        void setMinuto();
+        void setSegundo();
         
         // other methods
         void check();
