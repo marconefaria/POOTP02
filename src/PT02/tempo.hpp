@@ -11,14 +11,7 @@ class Tempo {
     public:
 
         // Construtores
-        Tempo();
-        Tempo(int dia);
-        Tempo(int dia, int hora);
-        Tempo(int dia, int hora, int minuto);
-        Tempo(int hora, int minuto, int segundo);
-        Tempo(int hora, int minuto);
-        Tempo(int minuto, int segundo);
-        Tempo(int dia, int hora, int minuto, int segundo);
+       Tempo(int d = 0, int h = 0, int m = 0, int s = 0);
         // Destrutor
         ~Tempo();
     
